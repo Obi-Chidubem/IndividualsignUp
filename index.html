@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/brown" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/unbounded" rel="stylesheet" />
+    <link
+      href="https://fonts.cdnfonts.com/css/code-new-roman-2"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="group9">
+        <img src="Logo (1).png" alt="the-logo" id="logo" />
+        <p
+          id="header"
+          style="
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: -0.8px;
+          "
+        >
+          For Individuals
+        </p>
+        <span
+          id="content"
+          style="
+            font-family: 'Unbounded', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: left;
+          "
+        >
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </span>
+      </div>
+      <div id="registeration-box">
+        <form action="post">
+          <div id="form1-container">
+            <div class="form1">
+              <label for="first-name" style="width: 100%">First Name</label
+              ><br />
+              <input
+                type="text"
+                name="first-name"
+                placeholder="First Name"
+                autofocus
+                style="width: 100%"
+              />
+            </div>
+            <div class="form1">
+              <label for="last-name" style="width: 100%">Last Name</label><br />
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Last Name"
+                style="width: 100%"
+              />
+            </div>
+            <div class="form1">
+              <label for="gender" style="width: 100%">Gender</label><br />
+              <select
+                type=""
+                name="gender"
+                style="width: 100%; height: 48px; margin-top: 8px"
+              >
+              <option value="" style="font-weight: 300;font-size: 14px;">Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="form1">
+              <label for="dob" style="width: 100%">Date of Birth</label><br />
+              <input type="date" name="dob" style="width: 100%" placeholder="Select here"/>
+            </div>
+            <div class="form1">
+              <label for="weight" style="width: 100%">Weight (KG)</label><br />
+              <input type="text" name="weight" style="width: 100%" placeholder="Enter Weight"/>
+            </div>
+            <div class="form1">
+              <label for="height" style="width: 100%">Height (CM)</label><br />
+              <input type="text" name="height" style="width: 100%" placeholder="Enter Height here"/>
+            </div>
+          </div>
+          <div id="form2-container">
+            <div class="form2">
+              <label for="actlevel">Activity Level</label><br />
+              <select name="actlevel" id="acti"></select> <!-- wasnt sure what to put here, so left it empty -->
+            </div>
+            <div class="form2">
+              <label for="password">Password</label><br />
+              <input type="password" name="password" />
+            </div>
+            <button>Register</button>
+          </div>
+          <p id="lisence-agreement">
+            By clicking Register, you agree to our
+            <a href="terms-of-use">Terms of Use</a> and our
+            <a href="privacy-policy">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
